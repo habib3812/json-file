@@ -1,0 +1,60 @@
+
+.card{
+    padding: 10px;
+    margin: 5px;
+    height: 500px;
+}
+.card img{
+    border-radius: 5px;
+    height: 200px;
+}
+
+.card-title, .elementsName{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #111111;
+}
+.futterCord{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.arrow{
+    border:0px;
+    font-size: 30px;
+     color: rgb(147, 31, 31);
+border-radius: 50%;
+}
+/* date */
+#start{
+    border: 0ch;
+}
+ 
+
+
+.olNumver{
+    color: #585858;
+}
+
+/* model  */
+
+
+.modal-heade{
+  
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+}
+.btn-close {
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    border:6px solid rgb(255, 2, 2);
+}
